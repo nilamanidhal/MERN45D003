@@ -1,0 +1,79 @@
+body{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(252, 241, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-main{
+    height: 500px;
+    width:397px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.container{
+    height: 85%;
+    width:307px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 45px 20px 45px;
+}
+.email{
+    height:35px ;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid black;
+    font-size: 1.2rem;
+    margin-top: 7px;
+}
+.poss{
+     height:35px ;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid black;
+    font-size: 1.2rem;
+    margin-top: 7px;
+}
+.cheak{
+    width: 22px;
+  height: 22px;
+  /* transform: scale(1.8); */
+}
+.cheak1 {
+   display: flex;
+}
+.cheak1 span{
+   margin-top: 2px;
+}
+form{
+    height:260px;
+    display:flex ;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color:rgb(0, 124, 112) ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    /* padding: 5px ; */
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:2.7rem;
+}
+/* .lebel{
+    margin-bottom: 5px;
+} */

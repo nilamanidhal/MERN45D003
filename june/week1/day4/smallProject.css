@@ -1,0 +1,83 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+nav{
+    height: 60px;
+    width:100%;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: space-between;
+    box-shadow:-8 -7px 10px 10px rgb(40, 34, 34);
+}
+.nav-log{
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.logo{
+    color: blue;
+    font-weight: 900;
+    font-size: large;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-list{
+    width: 60%;
+     height: 100%;
+     /* display: flex; */
+
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-list ul li:hover{
+    color: blueviolet;
+    transition: all 0.5s;
+}
+.nav-list ul li{
+   font-weight: 700;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.grid_container{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    padding: 10px;
+    gap:5px;
+    border-radius: 12px;
+}
+.box{
+    border:2px solid black;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header,#footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: antiquewhite;
+}
+#slid{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: aquamarine;
+}
+#content{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(143, 132, 116);
+}
