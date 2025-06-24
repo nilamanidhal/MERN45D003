@@ -13,6 +13,7 @@
         if(storedPass===password){
             alert("loged in sucessfully");
             window.location.href='home.html';
+
         }
         else{
             alert("invalid password");
