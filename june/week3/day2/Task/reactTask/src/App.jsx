@@ -3,13 +3,19 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
+import Service from './components/Service'
+import Contact from './components/Contact'
 
 
 function App() {
+  // const [count, setCount] = useState(0)
+
   return (
     <>
-  <Home/>
-     <h1 style={{color:"white"}}>Welcome to React</h1>
+      <Home/>
+      <Service/>
+      <Contact/>
+      {/* <h3>hyy react</h3> */}
     </>
   )
 }

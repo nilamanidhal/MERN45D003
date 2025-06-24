@@ -1,0 +1,53 @@
+    .Mcontact{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        background-color: rgb(20, 30, 20);;
+    }
+    .contact-container {
+      background-color: #1f2f27;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 255, 170, 0.2);
+      width: 90%;
+      max-width: 450px;
+      text-align: center;
+    }
+
+    .contact-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      background-color: #2f4238;
+      color: white;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      padding: 12px 20px;
+      background-color: #00ffaa;
+      color: #121c16;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #00e699;
+    }
+   

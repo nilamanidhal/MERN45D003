@@ -1,0 +1,8 @@
+h1{
+    color:bisque;
+}
+h3{
+    color: azure;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 8px;
+}
