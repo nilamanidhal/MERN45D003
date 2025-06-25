@@ -22,7 +22,7 @@ Passionate about solving real-world problems through clean, efficient code</p>
             </div>
         </div>
 
-
+      <hr />
       </>
     )
   }

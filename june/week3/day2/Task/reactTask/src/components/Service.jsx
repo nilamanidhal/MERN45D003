@@ -26,7 +26,7 @@ export class Service extends Component {
   </div>
             </div>
         </div>
-        {/* <hr /> */}
+        <hr />
       </div>
     )
   }
