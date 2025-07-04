@@ -62,3 +62,12 @@
     .discount {
       color: rgb(99, 166, 99);
     }
+    .cart{
+      background-color: #cac0008d;
+      padding: 7px 10px;
+      width: max-content;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }

@@ -14,6 +14,7 @@ function Pcard(props) {
        <div className='discount'>{props.product.discount}% Off</div>
       <div className='rating'>{props.product.rating} ★★★★☆ </div>
       <p className='summary'>{props.product.summary}</p>
+      <div className="cart">Add to Cart</div>
     
     </div>
   </div>
