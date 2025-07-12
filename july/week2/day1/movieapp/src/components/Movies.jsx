@@ -70,7 +70,7 @@ const Movies = () => {
                         onClick={() => navigate(`/movie/${ele.imdbID}`)}
                         className="shadow-1xl rounded-4xl overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer bg-white"
                     >
-                        <img src={ele.Poster} alt={ele.Title} className="w-full h-[250px] object-cover" />
+                        <img src={ele.Poster} alt={ele.Title} className="w-full h-[250px] " />
                         <div className="p-1 space-y-2  ">
                         <p>
                             <strong  className='text-green-500  '> Title :</strong> {ele.Title}

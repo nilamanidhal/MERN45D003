@@ -8,7 +8,7 @@ const AllRoutes = () => {
   return (
     <div>
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<Movies />} />
         <Route path='/home' element={<Home />} />
         <Route path='/movies' element={<Movies />} />
         <Route path='/movie/:id' element={<Movie />} />
